@@ -7,15 +7,10 @@ import discord
 from discord.ext import commands
 from discord.utils import get
 
-activity = discord.Game(name="Office Hour Calculator Sim 2023 GOTY Special Anniversary Edition")
 
-intents = discord.Intents.all()
-bot = commands.Bot(command_prefix="officehours ", intents=intents, activity=activity,help_command=None)
-# from dotenv import load_dotenv
 
-# load_dotenv()
-TOKEN = os.getenv('DISCORD_TOKEN')
-GUILD = os.getenv('DISCORD_GUILD')
+with open("config.json","r") as f:
+    config = json.load(f)
 
 channel_id = None
 
@@ -24,7 +19,11 @@ with open("schedule.json", "r") as fp:
     schedule = json.load(fp)
 
 
-# client = discord.Client(intents=intents)
+
+activity = discord.Game(name="Office Hour Calculator Sim 2023 GOTY Special Anniversary Edition")
+
+intents = discord.Intents.all()
+bot = commands.Bot(command_prefix="officehours ", intents=intents, activity=activity,help_command=None)
 
 def is_maintainer(ctx):
     return ctx.message.author.id == maintainer.id
@@ -176,4 +175,4 @@ async def on_ready():
 
 
 # bot.loop.create_task(background_task)
-bot.run("MTA2ODAwNTIyMzYxMzg3MDEzMA.GGeNm5.WBDOLRAnW5o5ipu86uDApi5rFRMyOQcEZM57WI")
+bot.run(config.token)
