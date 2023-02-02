@@ -1,0 +1,117 @@
+{
+  "Van Hilst": {
+    "Monday": [
+      {
+        "start_time": "09:00",
+        "end_time": "12:00",
+        "office": "King 146"
+      },
+      {
+        "start_time": "13:00",
+        "end_time": "13:50",
+        "office": "King 146"
+      }
+    ],
+    "Wednesday": [
+      {
+        "start_time": "9:00",
+        "end_time": "12:00",
+        "office": "King 146"
+      },
+      {
+        "start_time": "13:00",
+        "end_time": "13:50",
+        "office": "King 146"
+      }
+    ],
+    "Friday": [
+      {
+        "start_time": "9:00",
+        "end_time": "12:00",
+        "office": "King 146"
+      },
+      {
+        "start_time": "13:00",
+        "end_time": "13:50",
+        "office": "King 146"
+      }
+    ]
+  },
+  "Zapata": {
+    "Monday": [
+      {
+        "start_time": "10:00",
+        "end_time": "12:00",
+        "office": "King 107"
+      }
+    ],
+    "Tuesday": [
+      {
+        "start_time": "9:00",
+        "end_time": "11:00",
+        "office": "King 107"
+      }
+    ],
+    "Thursday": [
+      {
+        "start_time": "9:00",
+        "end_time": "11:00",
+        "office": "King 107"
+      }
+    ],
+    "Friday": [
+      {
+        "start_time": "10:00",
+        "end_time": "12:00",
+        "office": "King 107"
+      }
+    ]
+  },
+  "Abufardeh": {
+    "Monday": [
+      {
+        "start_time": "10:00",
+        "end_time": "12:00",
+        "office": "King 145"
+      },
+      {
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "office": "King 145"
+      }
+    ],
+    "Tuesday": [
+      {
+        "start_time": "9:00",
+        "end_time": "10:00",
+        "office": "King 145"
+      }
+    ],
+    "Wednesday": [
+      {
+        "start_time": "9:00",
+        "end_time": "12:00",
+        "office": "King 145"
+      },
+      {
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "office": "King 145"
+      }
+    ],
+    "Thursday": [
+      {
+        "start_time": "9:00",
+        "end_time": "10:00",
+        "office": "King 145"
+      }
+    ],
+    "Friday": [
+      {
+        "start_time": "10:00",
+        "end_time": "12:00",
+        "office": "King 145"
+      }
+    ]
+  }
+}
