@@ -113,5 +113,75 @@
         "office": "King 145"
       }
     ]
+  },
+  "Jaffe": {
+    "Tuesday": [
+      {
+        "start_time": "10:30",
+        "end_time": "11:45",
+        "office": "King 142"
+      },
+      {
+        "start_time": "13:30",
+        "end_time": "14:45",
+        "office": "King 142"
+      }
+    ],
+    "Wednesday": [
+      {
+        "start_time": "13:00",
+        "end_time": "16:00",
+        "office": "King 142"
+      }
+    ],
+    "Thursday": [
+      {
+        "start_time": "10:30",
+        "end_time": "11:45",
+        "office": "King 142"
+      },
+      {
+        "start_time": "13:30",
+        "end_time": "14:45",
+        "office": "King 142"
+      }
+    ]
+  },
+  "Reinsch": {
+    "Monday": [
+      {
+        "start_time": "9:00",
+        "end_time": "11:00",
+        "office": "King 105"
+      }
+    ],
+    "Tuesday": [
+      {
+        "start_time": "9:00",
+        "end_time": "11:00",
+        "office": "King 105"
+      }
+    ],
+    "Wednesday": [
+      {
+        "start_time": "9:00",
+        "end_time": "11:00",
+        "office": "King 105"
+      }
+    ],
+    "Thursday": [
+      {
+        "start_time": "9:00",
+        "end_time": "11:00",
+        "office": "King 105"
+      }
+    ],
+    "Friday": [
+      {
+        "start_time": "9:00",
+        "end_time": "11:00",
+        "office": "King 105"
+      }
+    ]
   }
 }

@@ -175,4 +175,4 @@ async def on_ready():
 
 
 # bot.loop.create_task(background_task)
-bot.run(config.token)
+bot.run(config["token"])
